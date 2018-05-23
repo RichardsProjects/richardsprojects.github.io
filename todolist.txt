@@ -1,0 +1,23 @@
+[ ] Upload modified theme to GitHub
+[ ] Update Richard's Projects
+    [X] Update Cayman theme
+    [X] Copy over all the blog posts
+    [X] Get Disqus to use the actual URL of the page
+    [X] Update title to be "Page Title | Site Title"
+    [X] Fix the margin of the wrapper not lining up with content
+    [X] Add a back button to the top of blog pages
+    [ ] Update pages
+        [X] Builds/Plugins/Mods
+        [X] Page for each build
+        [ ] Page for each plugin
+        [X] Page for each mod
+        [X] Update/Revise index page
+    [X] Update footer
+        [X] Add copyright
+        [X] Add theme information
+        [X] Use same footer that is on Lotro Media and Minecraft Media
+    [X] Remove Home link from pages list
+    [ ] Move Social Media icons to top
+        
+[ ] Make GitHub repo for UltimateBackpacks and use it as an issue tracker
+[ ] Add UltimateBackpacks javadocs and issues redirect
