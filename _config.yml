@@ -26,7 +26,8 @@ github_username: richardb122
 markdown: kramdown
 plugins:
   - jekyll-feed
-
+  - jekyll-email-protect
+  
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
