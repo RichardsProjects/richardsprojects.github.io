@@ -2,6 +2,7 @@
 layout: page
 title: Redstone Smarthouse Version 1
 permalink: redstone-smarthouse-version-1/
+comments_enabled: true
 --- 
 
 ## Redstone Smarthouse Version 1

@@ -2,6 +2,7 @@
 layout: page
 title: Coffee and Tea Mod
 permalink: coffee-and-tea-mod/
+comments_enabled: true
 ---
 
 ## Coffee and Tea Mod

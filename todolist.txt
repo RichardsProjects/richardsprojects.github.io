@@ -20,7 +20,7 @@
     [ ] Move Social Media icons to top
     [X] Add email obfuscator
     [ ] Add ko-fi links
-    [ ] Make select pages be commentable
+    [X] Make select pages be commentable
     [ ] Add Portfolio page
     
 [ ] Make GitHub repo for UltimateBackpacks and use it as an issue tracker
