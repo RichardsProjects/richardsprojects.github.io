@@ -12,7 +12,7 @@ layout: default
         <span class="post-meta">{{ post.date | date: date_format }}</span>
 
         <h2>
-          <a class="post-link" href="{{ post.url | relative_url }}" title="{{ post.title }}">{{ post.title | escape }}</a>
+          <a class="post-link" href="{{ post.url | relative_url | replace: ".html", ""}}" title="{{ post.title }}">{{ post.title | escape }}</a>
         </h2>
 
         <span><p>{{ post.excerpt | markdownify | truncatewords: 60 | replace: "<p>", "" | replace: "</p>", ""}}</p></span>

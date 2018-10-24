@@ -54,7 +54,10 @@ gtag('config', 'UA-88126240-4');
 		<section class="page-header">
 			<div class="wrapper">
 				<h1 class="project-name">{{ page-title }}</h1>
-				<h2 class="project-tagline">{{ site.description }}</h2>
+				<h2 class="project-tagline" style="display: inline">{{ site.description }}</h2>
+				<div style="display: inline; float: right">
+                    <a href="https://twitter.com/glorif22?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-screen-name="false" data-show-count="false">Follow @glorif22</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+				</div><div class="clear: right"></div>
 				{% if page.layout == 'home' and site.github.is_project_page %}
 				<a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
 				{% if site.show_downloads %}

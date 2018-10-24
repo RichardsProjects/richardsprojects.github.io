@@ -9,5 +9,5 @@ layout: home
 title: Home
 ---
 
-## About Me
-Hi, my name is Richard Bimmer and I am a Computer Science student at James Madison University. I enjoy running cross country and programming. This site is a tech blog and a repository for most of my projects. These mostly include mods and plugins. Most of them are alos open source and available on my GitHub.
+## Welcome!
+<img style="float: left; padding-right: 10px;" src="/assets/profile.jpg"> Hi, my name is Richard Bimmer and I am a college student studying Computer science at James Madison University. This site is my blog and a repository for most of my projects. Here I mostly post about issues or ideas relating to what I have been working on lately. I am primarily interested in backend web development, but I have also recently dabbled into some frontend work and static websites (like this one). The source code to most of my projects in available on my [Github](https://www.github.comn/richardb122).

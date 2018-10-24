@@ -15,18 +15,28 @@ layout: default
       {% endif %}</p>
   </header> -->
 
-  <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us19.list-manage.com","uuid":"6ed94768ba4c9dfeb837d0679","lid":"33c3df2ae9","uniqueMethods":true}) })</script>
+<script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us19.list-manage.com","uuid":"6ed94768ba4c9dfeb837d0679","lid":"33c3df2ae9","uniqueMethods":true}) })</script>
   <div itemprop="articleBody">
-    <a href="/blog/">« Back to All Posts</a><br />
+    {% if page.header %} 
+    <div style="width: 100%;">
+        <img style="width: 100%; padding: 0px;" src="/assets/{{ page.header }}" title="{{ page.header_title }}" alt="{{ page.header_alt }}">
+    </div><br />
+    {% endif %}
+  
+    <a href="/blog/">« Back to All Posts</a>
     <h2>{{ page.title }}</h2>
-    <h2 class="project-date">
+    <h2 style="margin-top: 0px; margin-bottom: 0px;" class="project-date">
     <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
         {% assign date_format = site.cayman-blog.date_format | default: "%b %-d, %Y" %}
         {{ page.date | date: date_format }}
     </time>
     </h2>
+
     {{ content }}
     <br />
+    <div style="border: 1px solid #9e9e9e; border-radius: 8px; padding: 8px; background: #BDBDBD;">
+        <h3 style="display: inline">Enjoy the content on this site?&nbsp;&nbsp;</h3><div style="float: right"><script type='text/javascript' src='https://ko-fi.com/widgets/widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Buy Me a Coffee', '#424242', 'R5R8KYI9');kofiwidget2.draw();</script></div><div style="clear: both"></div>
+    </div><br />
     <div id="disqus_thread"></div>
         <script>
             /**
