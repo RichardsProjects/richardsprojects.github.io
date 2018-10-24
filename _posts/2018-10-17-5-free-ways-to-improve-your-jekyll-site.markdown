@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "5 Free Ways to improve your static site"
-date:   2018-10-17 09:28:44 -0400
+date:   2018-10-24 14:59:44 -0400
 categories: tech
 header: webdev.jpeg
 header_title: Image free courtesy of pexels.com
