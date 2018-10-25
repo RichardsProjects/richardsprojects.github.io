@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "5 Free Ways to improve your static site"
-date:   2018-10-24 14:59:44 -0400
+date:   2018-10-24 20:11:44 -0400
 categories: tech
 header: webdev.jpeg
 header_title: Image free courtesy of pexels.com
@@ -39,6 +39,6 @@ MailChimp offers code snippets that you can configure to collect emails in forms
 MailChimp's free plan allows you to build an email list of 2000 subscribers and send 12,000 emails/month. 
 
 ### 5. Email Obfuscation
-Email obfuscation is important. Many bots scour websites looking for exposed email addresses to sell. If you list email addresses on your site or just have a contact address you should definitely obfuscate the emails. A simple way to do this is replace it with a script that will only display the email when javascript runs. The script shouldn't have the full email as a string literal in it though, because it could be easily extracted then. This [https://www.albionresearch.com/misc/obfuscator.php](site) will generate the javascript code for an email link. 
+Email obfuscation is also very important. Many bots scour websites looking for exposed email addresses to sell. If you list email addresses on your site or simply have a contact address you should definitely obfuscate the emails. A simple way to do this is replace it with a script that will only display the email when javascript runs. The script shouldn't have the full email as a string literal in it though, because it could be easily extracted then. This [https://www.albionresearch.com/misc/obfuscator.php](site) will generate the javascript code for an email link. 
 
-This should protect the address from a fair amount of bots. However, no method is foolproof so I recommend keeping up with what is going on and looking into new ways as they come out. Unfortunately it is a constant race, but even an older method can protect the addresses from some spam.
+This should protect the address from a fair amount of bots. However, no method is foolproof so I recommend keeping up with what is going on and looking into new ways as they come out. An alternative method is to make the email address an image. If you use <a href="https://www.cloudflare.com/" target="_blank">cloudflare</a> they have an option to obfuscate emails for you. Unfortunately it is a constant race, but even an older method can help reduce the amount of spam your email address gets.
