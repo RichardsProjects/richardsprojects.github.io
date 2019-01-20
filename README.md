@@ -1,3 +1,3 @@
 # Richard's Projects
 
-Uses a modfified version of the Cayman Blog theme.
+Uses a modified version of the Cayman Blog theme.
